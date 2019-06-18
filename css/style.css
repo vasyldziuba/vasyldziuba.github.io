@@ -311,7 +311,7 @@ li:hover {
 	width: 100%;
 	position: absolute;
 	z-index: 100;
-	top: 30vh;
+	top: 16vh;
 }
 
 .messageContainer p {
@@ -322,7 +322,7 @@ li:hover {
 	text-transform: capitalize;
 	position: absolute;
 	z-index: 100;
-	top: 44vh;
+	top: 35vh;
 	left: 16%;
 	width: 70%;
 	margin: 0 auto;
@@ -736,23 +736,23 @@ textarea {
 }
 
 .btn-menu-hidden {
-	
-    display: none;
-    text-align: center;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    background-color: rgba(255, 255, 255, 0.95);
-    color: #3c4858;
-    cursor: pointer;
-    right: 0;
-    top: 0;
-    z-index: 102;
-    font-size: 30px;
-    -moz-transition: all, 0.35s, easy, 0s;
-    -o-transition: all, 0.35s, easy, 0s;
-    -webkit-transition: all, 0.35s, easy, 0s;
-    transition: all, 0.35s, easy, 0s;
+
+	display: none;
+	text-align: center;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	background-color: rgba(255, 255, 255, 0.95);
+	color: #3c4858;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	z-index: 102;
+	font-size: 30px;
+	-moz-transition: all, 0.35s, easy, 0s;
+	-o-transition: all, 0.35s, easy, 0s;
+	-webkit-transition: all, 0.35s, easy, 0s;
+	transition: all, 0.35s, easy, 0s;
 
 }
 
@@ -918,5 +918,48 @@ textarea {
 
 	.aboutme-item {
 		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 475px) {
+	.messageContainer p {
+		top: 41vh;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.messageContainer span {
+		font-size: 40px;
+	}
+
+	.messageContainer p {
+		top: 30vh;
+	}
+
+	.myworks-item-img img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.messageContainer span {
+		font-size: 38px;
+	}
+
+	.messageContainer p {
+		font-size: 22px;
+		top: 28vh;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.messageContainer span {
+		font-size: 30px;
+	}
+
+	.messageContainer p {
+		font-size: 19px;
+		top: 26vh;
 	}
 }
